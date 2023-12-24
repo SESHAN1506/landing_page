@@ -1,0 +1,109 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #180101;
+    color: #eee0e0;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #1d0903;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    min-height: 100px; /* Adjust this value as needed */
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #e4d1d1;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Feature section styles */
+.features {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ce4040;
+    margin-bottom: 5px;
+    
+    
+
+
+    
+}
+
+.feature {
+    flex-basis: calc(50% - 50px); /* 2 columns with spacing */
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; /* Add space between sections */
+    border: 1px solid #201e1e;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.feature img {
+    max-width: 100%; /* Ensure standard image size */
+    height: auto; /* Maintain aspect ratio */
+    border: none; /* Remove border */
+}
+
+
+
+
+
+/* Additional section styles */
+.additional-section,
+.more-section {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px; /* Add space between sections */
+    border-radius: 5px;
+}
+
+.additional-section {
+    background-color:#ce4040; 
+    color: #fff; 
+}
+
+.more-section {
+    background-color:#ce4040; /* Light green background color */
+    color: #f1eded; /* Dark text color */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
